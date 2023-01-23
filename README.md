@@ -6,7 +6,7 @@ A Next.js and React based personal portfolio project to showcase skills and achi
 
 ## Getting Started
 
-1. Clone the repository: `git clone https://github.com/sushilduseja/progressive_profile.git`
+1. Clone the repository: `git clone https://github.com/sushilduseja/progressive-profile.git`
 2. Install the dependencies: `npm install` or `yarn install`
 3. Start the development server: `npm run dev` or `yarn dev`
 4. Build the project for production: `npm run build` or `yarn build`
