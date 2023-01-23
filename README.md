@@ -14,5 +14,5 @@ A Next.js and React based personal portfolio project to showcase skills and achi
 
 ## Acknowledgements
 
-A big thank you to @adrianhajdin for providing the foundation for this project. 
-@adrianhajdin - Your hard work made creating my own version a breeze. Keep up the great work!
+A big thank you to @adrianhajdin for providing the foundation for this project. Your hard work made creating my own version a breeze. Keep up the great work!
+https://github.com/adrianhajdin
