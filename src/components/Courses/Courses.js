@@ -6,7 +6,8 @@ import { Box, Boxes, BoxNum, BoxText, BoxTitle, JoinText } from './CoursesStyles
 const data = [
   { org: 'Scrum.org', text: 'Professional Scrum Master (PSM I)'},
   { org: 'IBM', text: 'Building Cloud Native and Multicloud Applications', },
-  { org: 'IBM', text: 'Blockchain Essentials', }
+  { org: 'IBM', text: 'Blockchain Essentials', },
+  { org: 'Digital University', text: 'Finance and Financial Products', }
 ];
 
 const Accomplishments = () => (

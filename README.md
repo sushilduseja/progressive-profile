@@ -4,7 +4,7 @@ A Next.js and React based personal portfolio project to showcase skills and achi
 
 ## Check out the live site
 
-https://progressive-profile.vercel.app/
+https://sushilduseja.vercel.app/
 
 ## Getting Started
 

@@ -4,20 +4,23 @@ import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponent
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './ShowcaseBannerStyles';
 
-const ShowcaseBanner = (props) => (
-  <>
-    <Section row nopadding>
-      <LeftSection>
-        <SectionTitle main center>
-          My Portfolio <br /> 
-        </SectionTitle>
-        <SectionText>
-          The aim is to exhibit the progression of my professional development.
-        </SectionText>
-        <Button onClick={props.handleClick}>Learn More</Button>
-      </LeftSection>
-    </Section>
-  </>
-);
+const ShowcaseBanner = (props) => {
+  return (
+    <>
+      <Section row nopadding>
+        <LeftSection>
+          <SectionTitle main center>
+            Vision <br /> 
+          </SectionTitle>
+          <SectionText>
+            I believe that the intersection of technology and people is key to solving problems. This is why my vision is to combine the power of technology with human connection to create cutting-edge products that have a positive impact.
+          </SectionText>
+          <Button onClick={() => window.open("http://www.linkedin.com/in/sushilduseja", "_blank")}>Connect with me</Button>
+        </LeftSection>
+      </Section>
+    </>
+  );
+};
+
 
 export default ShowcaseBanner;

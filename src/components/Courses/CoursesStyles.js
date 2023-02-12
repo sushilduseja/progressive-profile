@@ -67,8 +67,8 @@ export const BoxNum = styled.h5`
 export const BoxTitle = styled.h5`
   font-style: normal;
   font-weight: 600;
-  font-size: 32px;
-  line-height: 40px;
+  font-size: 28px;
+  line-height: 28px;
   letter-spacing: 0.01em;
   color: #FFFFFF;
   margin-bottom: 8px;

@@ -100,6 +100,7 @@ export const CarouselItemImg = styled.svg`
 `
 
 export const CarouselItemText = styled.p`
+  font-weight: bold;
   font-size: 14px;
   line-height: 22px;
   letter-spacing: 0.02em;

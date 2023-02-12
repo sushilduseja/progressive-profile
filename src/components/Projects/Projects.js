@@ -1,26 +1,24 @@
 import React from 'react';
 
-import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
+import { BlogCard, CardInfo, FirstExternalLink, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 
 const Projects = () => (
   <Section nopadding id="projects">
     
-    <SectionTitle>Projects</SectionTitle>
-    <HeaderThree title>This section is under development</HeaderThree>
-    {/* <GridContainer>
+    <SectionTitle>Key Projects</SectionTitle>
+    <GridContainer>
       {projects.map((p, i) => {
         return (
           <BlogCard key={i}>
-          <Img src={p.image} />
             <TitleContent>
               <HeaderThree title>{p.title}</HeaderThree>
               <Hr />
             </TitleContent>
             <CardInfo className="card-info">{p.description}</CardInfo>
             <div>
-              <TitleContent>Stack</TitleContent>
+              <TitleContent><u>Stack</u></TitleContent>
               <TagList>
                 {p.tags.map((t, i) => {
                   return <Tag key={i}>{t}</Tag>;
@@ -28,13 +26,13 @@ const Projects = () => (
               </TagList>
             </div>
             <UtilityList>
-              <ExternalLinks href={p.visit}>Code</ExternalLinks>
-              <ExternalLinks href={p.source}>Source</ExternalLinks>
+              <FirstExternalLink>{p.value}</FirstExternalLink>
+              <ExternalLinks>{p.lessons}</ExternalLinks>
             </UtilityList>
           </BlogCard>
         );
       })}
-    </GridContainer> */}
+    </GridContainer>
   </Section>
 );
 

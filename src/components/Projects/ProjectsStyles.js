@@ -40,11 +40,12 @@ export const TitleContent = styled.div`
 
 
 export const HeaderThree = styled.h3`
+  font-size: 16px;
   font-weight: 500;
   letter-spacing: 2px;
   color: #9cc9e3;
   padding: .5rem 0;
-  font-size: ${(props) => props.title ? '3rem' : '2rem'};
+  font-size: ${(props) => props.title ? '2rem' : '3rem'};
 `;
 
 export const Hr = styled.hr`
@@ -86,6 +87,7 @@ export const UtilityList = styled.ul`
   display: flex;
   justify-content: space-around;
   margin: 2.5rem 0;
+  text-align: left;
 `;
 
 export const ExternalLinks = styled.a`
@@ -99,6 +101,10 @@ transition: 0.5s;
   background: #801414;
 
 }
+`;
+
+export const FirstExternalLink = styled(ExternalLinks)`
+  margin-right: 1rem;
 `;
 
 export const TagList = styled.ul`

@@ -1,5 +1,7 @@
 import React from 'react';
 import { DiCode, DiAptana, DiReact, DiCloud9, DiCodepen, DiDatabase, DiJenkins, DiGitBranch, DiUnitySmall, DiYii } from 'react-icons/di';
+import { TbApi, TbPlugConnected } from 'react-icons/tb';
+import { SiDatabricks } from 'react-icons/si';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -7,7 +9,7 @@ const Technologies = () => (
   <Section id="tech">
     <SectionTitle>Technology Stack</SectionTitle>
     <SectionText>
-      I possess extensive expertise in back-end development, with a solid understanding and experience in front-end technologies as well.
+      As a skilled developer, I have deep expertise in crafting robust and scalable back-end systems, coupled with a nuanced grasp of front-end technologies.
     </SectionText>
     <List>
       <ListItem>
@@ -26,9 +28,20 @@ const Technologies = () => (
           <DiAptana size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Frameworks</ListTitle>
+          <ListTitle>Server-side Technologies</ListTitle>
           <ListParagraph>
-            Spring, Spring Boot
+            Spring, Spring Boot, Node.js
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <TbApi size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>API Development</ListTitle>
+          <ListParagraph>
+            REST, Postman
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -39,7 +52,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Web Technologies</ListTitle>
           <ListParagraph>
-            React, Next.js
+            React, Javascript
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -56,7 +69,18 @@ const Technologies = () => (
       </ListItem>
       <ListItem>
         <picture>
-          <DiCodepen size="3rem" />
+          <SiDatabricks size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Data Formats</ListTitle>
+          <ListParagraph>
+            FIX, FpML, XML, JSON
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <TbPlugConnected size="3rem" />
         </picture>
         <ListContainer>
           <ListTitle>Messaging Services</ListTitle>
@@ -83,7 +107,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Build Tools</ListTitle>
           <ListParagraph>
-            Ant, Maven, Jenkins CI/CD
+            Ant, Maven, Gradle, Jenkins CI/CD
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -103,7 +127,7 @@ const Technologies = () => (
           <DiUnitySmall size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Testing Tools</ListTitle>
+          <ListTitle>Test Automation Frameworks</ListTitle>
           <ListParagraph>
             JUnit, TestNG, Mockito, Selenium, Cucumber
           </ListParagraph>
@@ -116,7 +140,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Miscellaneous</ListTitle>
           <ListParagraph>
-            Node.js, FIX, JSON, REST
+            LMAX Disruptor, QuickFixJ, Azul
           </ListParagraph>
         </ListContainer>
       </ListItem>

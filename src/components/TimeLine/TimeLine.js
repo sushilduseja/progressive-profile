@@ -43,11 +43,11 @@ const Timeline = () => {
   }, []);
 
   return (
-    <Section id="about">
-      <SectionTitle>About Me</SectionTitle>
-      <SectionText>
-        I believe that the intersection of technology and people is key to solving problems. This is why my vision is to combine the power of technology with human connection to create cutting-edge products that have a positive impact.
-      </SectionText>
+    <Section id="timeline">
+      <SectionTitle>Journey So Far</SectionTitle>
+      {/* <SectionText>
+        
+      </SectionText> */}
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
