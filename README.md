@@ -4,7 +4,7 @@ A Next.js and React based personal portfolio project to showcase skills and achi
 
 ## Check out the live site
 
-https://sushilduseja.vercel.app/
+https://dusejasushil.vercel.app/
 
 ## Getting Started
 
